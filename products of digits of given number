@@ -1,0 +1,9 @@
+#printing product of the digit of a given number
+n = int(input("n:"))
+pro=1
+i=n
+while(i>0):
+    j=i%10
+    pro=pro*j
+    i=i//10
+print(pro)
