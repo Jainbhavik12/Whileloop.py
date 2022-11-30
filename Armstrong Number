@@ -1,0 +1,20 @@
+#amstrong number
+n = int(input("n:"))
+i=n
+count=0
+while(i>0):
+    i=i//10
+    count+=1
+sum=0
+i=n
+while(i>0):
+    j=i%10
+    k=j**count
+    sum=sum+k
+    i=i//10
+if (sum==n) and (sum!=0):
+    print("It is an armstrong number")
+elif sum==0:
+    print("Enter non zero number")
+else:
+    print("It is not an armstrong number")
