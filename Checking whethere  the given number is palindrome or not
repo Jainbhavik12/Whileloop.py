@@ -1,0 +1,14 @@
+#checking wethere the given number is palindrome number or not:
+n = int(input("n:"))
+i=n
+rev=0
+while(i>0):
+    rev=(rev*10)+i%10
+    i=i//10
+print(rev)
+if rev==n and rev!=0:
+    print("It is a palindrome number")
+elif rev==0:
+    print("Enter non zero number")
+else:
+    print("It is not a palindrome number")
