@@ -1,0 +1,11 @@
+#printing sum of cube of first n natural numbers:
+n= int(input("n:"))
+sum=0
+i=0
+while(i<n):
+    i=i+1
+    j=i*i*i
+    sum=sum+j
+print(sum)
+
+# This code is written by Bhavik
