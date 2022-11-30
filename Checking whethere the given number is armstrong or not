@@ -1,0 +1,13 @@
+#checkimg whether a given number is armstrong or not
+n = int(input("n:"))
+m=n
+sum=0
+while(n>0):
+    i=n%10
+    j=i*i*i
+    sum=sum+j
+    n=n//10
+if sum==m:
+     print("It is armstrong number")
+else:
+     print("It is not a armstrong number")
